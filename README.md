@@ -8,6 +8,7 @@ na pasta:
 
 no editor:
 * arraste o arquivo index.html até a barra de pesquisa do seu navegador 
+
 ou
 * instale a extensão Live Server no editor de código.
 * depois de instalado, vá até o arquivo index.html, clique com o botão direito do mouse e abra com o Live Server
