@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 10vh;
+    font-size: 12px;
+}
+
+#logo-laranja {
+    width: 18vw;
+    height: 7vh;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0 30px;
+    gap: 30px;
+}
+
+.menu li {
+    padding: 7px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.menu a:hover {
+    color: #6510f2; 
+}
+
+#area-cliente {
+    height: 25px;
+    width: 125px;
+    border: 1.5px solid #6510f2;
+    border-radius: 15px;
+    color: #6510f2; 
+    background-color: white;
+}
+
+#area-cliente:hover {
+    color: white; 
+    border-color: #ED7203;
+    background-color: #ED7203; 
+    cursor: pointer;
+}
+
+#entrar {
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#entrar:hover {
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    color: #6510f2; 
+    background-color: white;
+}
+
+/*MAIN*/
+section {
+    height: 500px;
+}
+ /* Seção 1 */
+.inicio {
+    background: url(./img/background-inicio.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+.inicio div {
+    max-width: 600px;    
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.inicio .container-text{
+    padding-top: 50px;  
+    padding-bottom: 75px; 
+
+}
+
+.inicio .container-botao {
+    display: flex;    
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(100, 101, 101);
+    /* opacity: 0.6; */
+    align-items: center;
+    justify-content: center;
+} 
+
+.inicio .container-botao button {
+    background-color: white;
+    border: none;  
+    border-radius: 50px; 
+    color: #ED7203;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /* float: left; */
+}
+
+.inicio .container-botao #alugar {
+    background-color: rgb(100, 101, 101);
+    color: white;
+}
+
+.inicio .container-botao button:hover{
+    background-color: rgb(214, 95, 52);
+    color: #6510f2;
+}
+
+.inicio .barra-de-pesquisa {
+    display: grid;
+    grid-template-columns: 220px 220px 50px;   
+    background-color: white;
+    width: 500px;
+    min-height: 60px;
+    margin: 30px auto;
+    padding: 0 auto; 
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+.inicio .barra-de-pesquisa input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+
+.inicio .barra-de-pesquisa #localizacao {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-right: 1px solid gray;
+    width: 200px;
+    flex-grow: 3;
+    
+}
+
+.inicio .barra-de-pesquisa #numero-quartos {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    flex-grow: 3;
+}
+
+.inicio .barra-de-pesquisa #icone-lupa {
+    display: flex;   
+    flex-grow: 1;
+    /* right: 20%;
+    top: 52%; */
+    background-color: #ED7203;
+    border-radius: 50% 50%;   
+    margin-right: 150px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio .barra-de-pesquisa #icone-lupa img {
+    width: 25px;
+    height: 25px;      
+}
+
+/*Section 2*/
+.section-contatos {
+    display: flex;
+    height: 50px;
+    background: linear-gradient(rgb(234, 232, 240), rgb(226, 224, 233), rgb(222, 221, 223));
+    align-items: center;
+    padding: 0 150px;
+
+}
+.section-contatos .telefones{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 25px;
+    min-width: 350px;
+    gap: 10px; 
+    border-right: 1px  solid rgb(177, 175, 175);  
+}
+
+.section-contatos div img {
+    width: 15px;
+    height: 15px;
+}
+
+.section-contatos div p {
+    color: rgb(100, 100, 100);
+    font-size: 11px;
+}
+
+.section-contatos div h6 {
+    font-size: 11px;
+    color: rgb(100, 101, 101);
+}
+
+.section-contatos .icones-redes  {
+    display: flex;
+    border: none;
+    min-width: 450px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-contatos .icones-redes div {
+    display: flex;
+    gap: 5px;
+}
+
+/* Section 3 */
+.section-destaques {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    padding: 30px 150px;
+    gap: 50px;
+    justify-content: space-around;
+
+}
+.section-destaques .card-destaques {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-destaques .card-destaques .card {
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.section-destaques .card-destaques img {
+    width: 250px;
+    height: 150px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+} 
+
+.section-destaques .card-destaques .card-infos {
+    display: flex;
+    flex-direction: column;
+    width: 248px;
+    height: 150px;
+    margin-top: -1.5%;   
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2px 0;
+    border: 1px solid gray;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.section-destaques .card-destaques .card-infos p {
+    font-size: 12px;
+    margin: 0 5px;
+}
+
+.section-destaques .card-destaques .card-infos h4{
+    margin: 0 5px;
+}
+
+.section-destaques .card-destaques .card-infos h5{
+    margin: 0 5px;
+}
+
+/* Sectio 4*/
+.section-sobre {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.section-sobre .texto-imagem {
+    display: flex;
+   height: 50%;
+}
+
+.section-sobre .texto-imagem #texto {
+
+
+}
+
+.section-sobre .texto-imagem #texto p {
+    font-size: 12px;
+}
+
+.section-sobre .texto-imagem #imagem {
+   background: url(./img/familia-cozinha.jpg) no-repeat center center;
+   
+}
