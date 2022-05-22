@@ -28,12 +28,12 @@
                     <a href="">Contato</a>
                 </li>
                 <li>
-                    <a href="">Institucional <i class="fa-solid fa-chevron-down"></i></a>
+                    <a href="">Institucional <i class="fa-solid fa-chevron-down fa-xs"></i></a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <button id="area-cliente">Área do Cliente <i class="fa-solid fa-chevron-down"></i></button>
+                    <button id="area-cliente">Área do Cliente <i class="fa-solid fa-chevron-down fa-xs"></i></button>
                 </li>
                 <li>
                     <button id="entrar">Entrar</button>
@@ -43,58 +43,125 @@
     </header>
 
     <main>
-        <section>
-            <div class="inicio">
-                <div class="container-text">
-                    <h4>GPO Netimóveis</h4>
-                    <h2>Vende. Aluga. Conecta.</h2>
-                </div>
+        <section class="section-inicio">
+            <p>GPO Netimóveis</p>
+            <h2>Vende. Aluga. Conecta</h2>
 
-                <div class="container-botao">
-                    <button id="comprar">Comprar</button>
-                    <button id="alugar">Alugar</button>
-                </div>
-
-                <div class="barra-de-pesquisa">
-                    <input type="text" id="localizacao" placeholder="Qual é a localização?">
-                    <input type="text" id="numero-quartos" placeholder="Quantos quartos?">
-                    <div id="icone-lupa">
-                        <img src="./img/icone-lupa.png">
-                    </div>
-                </div>
+            <div id="botoes">
+                <button id="botao-comprar">Comprar</button>
+                <button id="botao-alugar">Alugar</button>
             </div>
+
+            <div id="barra-pesquisa">
+                <div>
+                    <div>
+                        <i class="fa-solid fa-location-dot fa-sm" style="color:#343a40"></i>
+                        <h6>Localização</h6>
+                    </div>
+                    <input placeholder="Qual é a localização?">
+                </div>
+
+                <div>
+                    <div>
+                        <i class="fa-solid fa-bed fa-sm" style="color:#343a40 "></i>
+                        <h6>Nº de quartos</h6>
+                    </div>
+                    <input placeholder="Quantos quartos?">
+                </div>
+
+                <button>
+                    <i class="fa-solid fa-magnifying-glass fa-2x" style="color: #fff"></i>
+                </button>
+            </div>
+
         </section>
 
         <section class="section-contatos">
-            <div class="telefones">
-                <img src="./img//icone-whatsapp.png">
+            <div id="whatsapp">
+                <i class="fa-brands fa-whatsapp fa-sm" style="color:#25d366"></i>
                 <p>(31) 99769-2051</p>
             </div>
-            <div class="telefones">
-                <img src="./img/icone-telefone.png">
+            <div id="telefones">
+                <i class="fa-solid fa-phone fa-xs" style="color:#343a40"></i>
                 <h6>Comprar:</h6>
                 <p>3071-3535</p>
                 <h6>Alugar:</h6>
                 <p>3071-3535</p>
             </div>
-            <div class="icones-redes">
-                <div>
-                    <img src="./img/icone-localizacao.png">
+            <div>
+                <div id="endereco">
+                    <i class="fa-solid fa-location-dot fa-sm" style="color:#343a40"></i>
                     <p>Rua Maranhão, 564 | Belo Horizonte</p>
                 </div>
-                <div>
-                    <img src="./img/icone-facebook.png">
-                    <img src="./img/icone-linkedin.png">
-                    <img src="./img/icone-instagram.png">
+
+                <div id="logos-paginas">
+                    <i class="fa-brands fa-facebook-f" style="color:#343a40"></i>
+                    <i class="fa-brands fa-linkedin-in" style="color:#343a40"></i>
+                    <i class="fa-brands fa-instagram" style="color:#343a40"></i>
+
                 </div>
             </div>
-
         </section>
 
         <section class="section-destaques">
             <div>
                 <h4>Nossos destaques para <span style="color:#ED7203">Venda</span></h4>
-                <a href="">Ver todos os imóveis</a>
+                <a href="">Ver todos os imóveis <i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i></a>
+            </div>
+            <div class="card-destaques">
+                <div class="card">
+                    <img src="./img/card-destaques106399.jpg">
+                    <div class="card-infos">
+                        <h5>Casa à venda, 255m²</h6>
+                            <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
+                            <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
+                            <p>Armário embutido - Elevador</p>
+                            <h4 style="color:#ED7203">R$ 248.000
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/card-destaques106399.jpg">
+                    <div class="card-infos">
+                        <h5>Casa à venda, 255m²</h6>
+                            <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
+                            <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
+                            <p>Armário embutido - Elevador</p>
+                            <h4 style="color:#ED7203">R$ 248.000
+                        </h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./img/card-destaques106399.jpg">
+                    <div class="card-infos">
+                        <h5>Casa à venda, 255m²</h6>
+                            <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
+                            <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
+                            <p>Armário embutido - Elevador</p>
+                            <h4 style="color:#ED7203">R$ 248.000
+                        </h5>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="./img/card-destaques106399.jpg">
+                    <div class="card-infos">
+                        <h5>Casa à venda, 255m²</h6>
+                            <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
+                            <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
+                            <p>Armário embutido - Elevador</p>
+                            <h4 style="color:#ED7203">R$ 248.000
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            
+                <div>
+                    <h4>Nossos destaques para <span style="color:#ED7203">Locação</span></h4>
+                    <a href="">Ver todos os imóveis <i class="fa-solid fa-arrow-up-right-from-square fa-sm"></i></a>
+                </div>
                 <div class="card-destaques">
                     <div class="card">
                         <img src="./img/card-destaques106399.jpg">
@@ -107,6 +174,7 @@
                             </h5>
                         </div>
                     </div>
+
                     <div class="card">
                         <img src="./img/card-destaques106399.jpg">
                         <div class="card-infos">
@@ -118,6 +186,7 @@
                             </h5>
                         </div>
                     </div>
+
                     <div class="card">
                         <img src="./img/card-destaques106399.jpg">
                         <div class="card-infos">
@@ -129,56 +198,7 @@
                             </h5>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="./img/card-destaques106399.jpg">
-                        <div class="card-infos">
-                            <h5>Casa à venda, 255m²</h6>
-                                <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
-                                <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
-                                <p>Armário embutido - Elevador</p>
-                                <h4 style="color:#ED7203">R$ 248.000
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h4>Nossos destaques para <span style="color:#ED7203">Locação</span></h4>
-                <a href="">Ver todos os imóveis</a>
-                <div class="card-destaques">
-                    <div class="card">
-                        <img src="./img/card-destaques106399.jpg">
-                        <div class="card-infos">
-                            <h5>Casa à venda, 255m²</h6>
-                                <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
-                                <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
-                                <p>Armário embutido - Elevador</p>
-                                <h4 style="color:#ED7203">R$ 248.000
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./img/card-destaques106399.jpg">
-                        <div class="card-infos">
-                            <h5>Casa à venda, 255m²</h6>
-                                <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
-                                <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
-                                <p>Armário embutido - Elevador</p>
-                                <h4 style="color:#ED7203">R$ 248.000
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="./img/card-destaques106399.jpg">
-                        <div class="card-infos">
-                            <h5>Casa à venda, 255m²</h6>
-                                <p style="color:rgb(100, 101, 101)">Cristiano Moreira Sales</p>
-                                <p>3 Quartos - 1 Banheiro - 1 Vaga</p>
-                                <p>Armário embutido - Elevador</p>
-                                <h4 style="color:#ED7203">R$ 248.000
-                            </h5>
-                        </div>
-                    </div>
+
                     <div class="card">
                         <img src="./img/card-destaques106399.jpg">
                         <div class="card-infos">
@@ -191,69 +211,193 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <section class="section-sobre">
             <div class="texto-imagem">
-                <div id="texto">
-                    <h2>Frase de efeito</h2>
-                    <h2>sobre a <span style="color:#ED7203">imobiliária</span></h2>
+                <div>
+                    <h1>Frase de efeito <br> sobre a <span style="color:#ED7203">imobiliária</span></h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis repellendus laborum deleniti qui
                         perferendis, dolore, illum maiores ipsa hic iure odio perspiciatis.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam placeat rem provident
                         perferendis? Nam facere ducimus provident? Quibusdam, repudiandae culpa.</p>
                 </div>
+                <img src="./img/familia-cozinha.jpg">
+            </div>
 
-                <div id="imagem">
-                    Imagem
+            <div id="cards-sobre">
+                <div>
+                    <div id="div-icone-sobre">
+                        <i class="fa-solid fa-house-chimney fa-4x" style="color:#ED7203 "></i>
+                    </div>
+                    <h3>Quem somos</h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi non perferendis earum
+                        voluptatem vero nostrum officia? Ipsa, cum eum!</p>
+                    <button>Conheça Mais</button>
+                </div>
+                <div>
+                    <div id="div-icone-sobre">
+                        <i class="fa-solid fa-list-check fa-4x" style="color:#ED7203 "></i>
+                    </div>
+                    <h3>Avaliações</h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi non perferendis earum
+                        voluptatem vero nostrum officia? Ipsa, cum eum!</p>
+                    <button>Mais sobre as avaliações</button>
+                </div>
+                <div>
+                    <div id="div-icone-sobre">
+                        <i class="fa-solid fa-handshake-simple fa-4x" style="color:#ED7203 "></i>
+                    </div>
+                    <h3>GPO Corporativo</h3>
+                    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod excepturi non perferendis earum
+                        voluptatem vero nostrum officia? Ipsa, cum eum!</p>
+                    <button>Mais sobre a GPO Coporativo</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section-servicos">
+            <div id="anunciar-imovel">
+                <img src="./img/poster-anunciar.jpg">
+                <div>
+                    <h6>Quer vender ou alugar?</h6>
+                    <h2>Anuncie grátis <br> para mais de 100 mil pessoas todos os dias.</h2>
+                    <button>Anunciar Imóvel</button>
+                    <h5>Saiba quanto vale seu imóvel <i class="fa-solid fa-arrow-right-long"></i></h5>
                 </div>
             </div>
-
-            <div> CARDS
-                <div>Quem somos</div>
-                <div>Faça nossas avaliações</div>
-                <div>GPO Cooporativo</div>
+            <div id="cards-servicos">
+                <div>
+                    <i class="fa-solid fa-house-chimney fa-5x" style="color:#ED7203 "></i>
+                    <h3 style="color:rgb(47, 47, 47)">Quer vender seu imóvel</h3>
+                    <p style="color: rgb(112, 112, 112)"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+                        excepturi non perferendis earum
+                        voluptatem vero nostrum officia? Ipsa, cum eum!</p>
+                    <button>Vender meu imóvel</button>
+                </div>
+                <div>
+                    <i class="fa-solid fa-location-dot fa-5x" style="color:#ED7203"></i>
+                    <h3 style="color:rgb(47, 47, 47)">Quer alugar seu imóvel</h3>
+                    <p style="color: rgb(112, 112, 112)"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod
+                        excepturi non perferendis earum
+                        voluptatem vero nostrum officia? Ipsa, cum eum!</p>
+                    <button>Alugar meu imóvel</button>
+                </div>
+            </div>
+            <div id="banner-portugal">
+                <h2>Encontre a oportunidade <br> perfeita em Portugal</h2>
+                <button>Ver imóveis em Portugal</button>
             </div>
         </section>
 
-        <section> SERVIÇOS
-            <div>
-                Imagem
-                poster de anuncio
+        <section class="section-cultura-bh">
+            <div class="card-cultura">
+                <img src="./img/dança.jpg">
+                <div>
+                    <h3>Dançando por BH <i class="fa-solid fa-arrow-right-long" style="color:#ED7203"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, accusantium?</p>
+                </div>
             </div>
-            <div>
-                Card vender
-                Card alugar
+            <div class="card-cultura">
+                <img src="./img/doce-mg.jpg">
+                <div>
+                    <h3>Minas Gerais <i class="fa-solid fa-arrow-right-long" style="color:#ED7203"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, accusantium?</p>
+                </div>
             </div>
-            <div> Portugal
-                Imagem
-                botão encontrar
+            <div class="card-cultura">
+                <img src="./img/praca-bh.jpg">
+                <div>
+                    <h3>Belo Horizonte <i class="fa-solid fa-arrow-right-long" style="color:#ED7203"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, accusantium?</p>
+                </div>
             </div>
         </section>
 
-        <section> CULTURA
-            <div>
-                imagem
-                botõ de ação
+        <section class="section-botao-acao">
+            <h2>Frase de efeito <br> sobre a <span style="color: #ED7203">imobiliária</span></h2>
+            <h2>Lorem ipsum dolor <br> sit amet.</h2>
+            <button>Botão de ação aqui</button>
+        </section>
+
+        <section class="section-cultura-bh2">
+
+            <div class="card-cultura2">
+                <img src="./img/doce-mg.jpg">
+                <div>
+                    <h3>Minas Gerais <i class="fa-solid fa-arrow-right-long" style="color:#ED7203"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, accusantium?</p>
+                </div>
             </div>
-            <div>
-                Card opções cultura
+            <div class="card-cultura2">
+                <img src="./img/praca-bh.jpg">
+                <div>
+                    <h3>Belo Horizonte <i class="fa-solid fa-arrow-right-long" style="color:#ED7203"></i></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, accusantium?</p>
+                </div>
             </div>
         </section>
 
-        <section> FINAL
-            A netimoveis
-            Recursos
-            Contato
-            Nossos Apps
+        <section class="section-final">
+            <ul>
+                <h4>A Netimóveis</h4>
+                <li>Quem Somos</li>
+                <li>Como funciona</li>
+                <li>Seja um parceiro</li>
+                <li>Quero me associar</li>
+                <li>Acessoria de imprensa</li>
+                <li>Soluções Corporativas</li>
+                <li>Covid-19</li>
+            </ul>
+
+            <ul>
+                <h4>Recursos</h4>
+                <li>Comprar</li>
+                <li>Alugar</li>
+                <li>Lançamentos</li>
+                <li>Anunciar Imóvel</li>
+                <li>Simular Financiamento</li>
+                <li>Imobiliárias</li>
+                <li>Blog</li>
+            </ul>
+
+            <ul>
+                <h4>Contato</h4>
+                <li>Fale Conosco</li>
+                <li>Perguntas Frequentes</li>
+                <li>Suporte</li>
+            </ul>
+
+            <ul>
+                <h4>Nossos Aplicativos</h4>
+                <li>Loc Fácil imóveis</li>
+                <li>Pro Imob Netimóveis</li>
+                <div>
+                    <i class="fa-brands fa-app-store-ios fa-3x" style="color: #ED7203"></i>
+                    <i class="fa-brands fa-google-play fa-3x" style="color: #ED7203"></i>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        Logo
-        infos
-        logos redes sociais
+        <img src="./img/logo-branca.png">
+        <div>
+            <p><i class="fa-solid fa-copyright fa-sm" style="color: #fff"></i> Copyright 2021 Netimóveis Brasil SA. Todos os direitos reservados.</li>
+            <div>
+                <p>Política de privacidade</p>
+                <p>Termos de uso</p>
+                <p>LGPD</p>
+                <p>Versão: 25/10/2021</p>
+            </div>
+        </div>
+        <div id="logos">
+            <i class="fa-brands fa-instagram fa-2x" style="color:#fff"></i>
+            <i class="fa-brands fa-facebook-f fa-2x" style="color:#fff"></i>
+            <i class="fa-brands fa-linkedin-in fa-2x" style="color:#fff"></i>
+            <i class="fa-brands fa-youtube fa-2x" style="color:#fff"></i>
+        </div>
     </footer>
 </body>
 
