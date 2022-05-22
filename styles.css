@@ -288,7 +288,7 @@ header {
 .section-sobre .texto-imagem div {
     display: flex;
     flex-direction: column;
-    padding-left: 5vw;
+    padding-left: 15vw;
     padding-right: 5vw;
 }
 
