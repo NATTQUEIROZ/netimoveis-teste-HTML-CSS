@@ -2,6 +2,8 @@
 
 Teste proposto pela Netimóveis para fazer o layout de um projeto, usando apenas HTML e CSS.
 
+link do surge: [general-salt.surge.sh](https://general-salt.surge.sh/)
+
 ### Para rodar localmente
 na pasta:
 * git clone https://github.com/NATTQUEIROZ/netimoveis-teste-HTML-CSS.git
